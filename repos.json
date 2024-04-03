@@ -1,13 +1,13 @@
 [
   {
     "kernelSource": {
-      "name": "No-Melody",
+      "name": "FreyanationKernel",
       "repo": "https://github.com/Renzprjkt/android_kernel_xiaomi_spes",
-      "branch": "No-Melody",
-      "device": "spes",
-      "defconfig": "vendor/Bloss-Shine_defconfig"
+      "branch": "14",
+      "device": "vince",
+      "defconfig": "vince-perf_defconfig"
   },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
